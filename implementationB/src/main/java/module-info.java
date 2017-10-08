@@ -1,11 +1,9 @@
 /**
  * Created by Radosław Osiński
  */
-module eu.com.example.implb.text {
+module eu.com.example.implementationB {
     requires eu.com.example.apiModule;
 
-    exports eu.com.example.implb.text;
-
-//    provides eu.com.example.implb.text.TextB with eu.com.example.text.spi.TextAPI;
+    provides eu.com.example.text.spi.TextAPI with eu.com.example.implb.text.TextB;
 
 }
