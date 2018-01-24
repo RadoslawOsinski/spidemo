@@ -1,3 +1,3 @@
 SPI DEMO
 ========
-Works on JDK 8
+SPI api usage example with JDK 9 and jigsaw.
